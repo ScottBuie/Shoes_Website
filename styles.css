@@ -1,0 +1,32 @@
+  /*This sets the background color to a cyan color, sets margins and padding to 0 on unordered list*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #13d3f5;
+  }
+  
+  /*This makes the list blocks float next to eachother bsically in a line from left to right*/ 
+  li {
+    float: left;
+  }
+  
+/*Makes list blocks, changes the color of words to black, makes text centered in blocks, gives padding to blocks*/
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Changes the sqaures to darker cyan when hovering */
+li a:hover {
+    background-color: #0e9db6;
+}
+
+  /*makes the background of the header cyan*/
+header {
+    background-color: #13d3f5
+}
