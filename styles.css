@@ -26,7 +26,25 @@ li a:hover {
     background-color: #0e9db6;
 }
 
-  /*makes the background of the header cyan*/
+  /*makes the background of the header/footer cyan*/
 header {
     background-color: #13d3f5
+}
+
+footer {
+  background-color: #13d3f5
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 15%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
