@@ -35,14 +35,14 @@ footer {
   background-color: #13d3f5
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Puts images in row and spaces them out */
 .column {
   float: left;
   width: 15%;
-  padding: 15px;
+  padding: 33px;
 }
 
-/* Clear floats after image containers */
+/* Makes images show up in next row */
 .row::after {
   content: "";
   clear: both;
